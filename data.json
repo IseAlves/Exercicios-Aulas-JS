@@ -1,0 +1,121 @@
+{
+    "questoes":[
+        {
+            "numQuestao":0,
+            "pergunta":"pergunta",
+            "alternativaA":"Alternativa A",
+            "alternativaB":"Alternativa B",
+            "alternativaC":"Alternativa C",
+            "alternativaD":"Alternativa D",
+            "correta":"0"
+        },
+        {
+            "numQuestao":1,
+            "pergunta":"Qual a distância entre a Terra e a Lua?",
+            "alternativaA":"1.000.000 km",
+            "alternativaB":"384.400 km",
+            "alternativaC":"56.400.000 km",
+            "alternativaD":"194.700.000 km",
+            "correta":"384.400 km"
+        },
+        {
+            "numQuestao":2,
+            "pergunta":"Qual a distância entre a Terra e o Sol?",
+            "alternativaA":"3.800.000 km",
+            "alternativaB":"200.000 km",
+            "alternativaC":"149.600.000 km",
+            "alternativaD":"1.700.000 km",
+            "correta":"149.600.000 km"
+        },
+        {
+            "numQuestao":3,
+            "pergunta":"Quantos dias tem um ano em Marte?",
+            "alternativaA":"578 dias",
+            "alternativaB":"687 dias",
+            "alternativaC":"210 dias",
+            "alternativaD":"900 dias",
+            "correta":"687 dias"
+        },
+        {
+            "numQuestao":4,
+            "pergunta":"Quantas luas possui Netuno?",
+            "alternativaA":"2 luas",
+            "alternativaB":"Nenhuma",
+            "alternativaC":"16 luas",
+            "alternativaD":"14 luas",
+            "correta":"14 luas"
+        },
+        {
+            "numQuestao":5,
+            "pergunta":"Quantos anéis possui Urano?",
+            "alternativaA":"13 anéis",
+            "alternativaB":"5 anéis",
+            "alternativaC":"18 anéis",
+            "alternativaD":"Nenhum",
+            "correta":"13 anéis"
+        },
+        {
+            "numQuestao":6,
+            "pergunta":"Qual o diâmetro de Vênus?",
+            "alternativaA":"15.963 km",
+            "alternativaB":"4.3258 km",
+            "alternativaC":"12.104 km",
+            "alternativaD":"200.547 km",
+            "correta":"12.104 km"
+        },
+        {
+            "numQuestao":7,
+            "pergunta":"Qual é o tempo de rotação de Júpiter?",
+            "alternativaA":"9 horas e 50 minutos",
+            "alternativaB":"21 horas e 10 minutos",
+            "alternativaC":"7 horas e 16 minutos",
+            "alternativaD":"15 horas e 46 minutos",
+            "correta":"9 horas e 50 minutos"
+        },
+        {
+            "numQuestao":8,
+            "pergunta":"Qual o planeta mais próximo do Sol?",
+            "alternativaA":"Terra",
+            "alternativaB":"Mercúrio",
+            "alternativaC":"Plutão",
+            "alternativaD":"Vênus",
+            "correta":"Mercúrio"
+        },
+        {
+            "numQuestao":9,
+            "pergunta":"Quantas vezes a Saturno é maior que a Terra?",
+            "alternativaA":"6 vezes",
+            "alternativaB":"4 vezes",
+            "alternativaC":"9 vezes",
+            "alternativaD":"12 vezes",
+            "correta":"9 vezes"
+        },
+        {
+            "numQuestao":10,
+            "pergunta":"Qual é o maior planeta do sistema solar?",
+            "alternativaA":"Júpiter",
+            "alternativaB":"Terra",
+            "alternativaC":"Sol",
+            "alternativaD":"Marte",
+            "correta":"Júpiter"
+        },
+        {
+            "numQuestao":11,
+            "pergunta":"Quantas luas possui Plutão?",
+            "alternativaA":"1 lua",
+            "alternativaB":"7 luas",
+            "alternativaC":"Nenhuma",
+            "alternativaD":"5 luas",
+            "correta":"5 luas"
+        },
+        {
+            "numQuestao":12,
+            "pergunta":"Qual o planeta mais distante da Terra?",
+            "alternativaA":"Marte",
+            "alternativaB":"Netuno",
+            "alternativaC":"Saturno",
+            "alternativaD":"Vênus",
+            "correta":"Netuno"
+        }
+    ]
+}
