@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="icon" href="images/asia-flix.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ásia Flix</title>
+    <link rel="stylesheet" href="css/aula27.css">
+</head>
+<body>
+    <main class='tela-principal'>
+
+        <header id='topo'>
+            <h1>Ásia Flix</h1> <span><a href=""><i class="far fa-use-circle"></i></a></span>
+        </header>
+
+        <section id='conteudos'>
+            <article id='banner-principal'>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nKO4TwgDKkk?si=zdZyF8zjfCVFw1Yq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+
+            <h3> Dramas Chineses (<span class='numDeVideos'></span>)</h3>
+            <article class='categoria'>
+                <button id='btnPrev' onclick="show(-1, 1)">&lt;</button>
+                <ul id='lista1' class='videos'>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=tiiN4rDwa8g" rel="noreferrer noopener" target='_blank'>
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/tiiN4rDwa8g/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://youtu.be/2hi2PlS3IJU?si=w2_bHu5MtBsOT9Qy" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/2hi2PlS3IJU/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=K_0kBIBj0ps" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/K_0kBIBj0ps/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=xesM9Vn-G1Q" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/xesM9Vn-G1Q/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=3BkU1-hlgOI" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/3BkU1-hlgOI/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=CxukbNsM_cY" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/CxukbNsM_cY/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+                </ul>
+                <button id='btnNext' onclick="show(+1, 1)">&gt;</button>
+            </article>
+
+            <h3>Dramas Coreanos (<span class='numDeVideos'></span>)</h3>
+
+            <article class='categoria'>
+                <button id='btnPrev' onclick="show(-1, 2) ">&lt;</button>
+                <ul id='lista2' class='videos '>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=G_jt3EwBMwU" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/G_jt3EwBMwU/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=1ZRMcvZLgpo" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/1ZRMcvZLgpo/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=ntrJe8zfRcM" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/ntrJe8zfRcM/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=M-PHcxPyasA" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/M-PHcxPyasA/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=wTGwjDqtfzQ" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/wTGwjDqtfzQ/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=ATkfffnlREM" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/ATkfffnlREM/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=o0v8pwAefl4" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/o0v8pwAefl4/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                </ul>
+                <button id='btnNext' onclick="show(+1, 2)">&gt</button>
+            </article>
+
+            <h3> Dramas Tailandeses (<span class='numDeVideos'></span>)</h3>
+
+            <article class='categoria'>
+                <button id='btnPrev' onclick="show(-1, 3)">&lt;</button>
+                <ul id='lista3' class='videos'>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=Wnl3QVB8dkk" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/Wnl3QVB8dkk/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=4Rg_-CFkZVY" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/4Rg_-CFkZVY/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=f30uq3ttZ30" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/f30uq3ttZ30/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                </ul>
+                <button id='btnNext' onclick="show(+1, 3)">&gt</button>
+            </article>
+
+            <h3> Dramas Japoneses (<span class='numDeVideos'></span>)</h3>
+
+            <article class='categoria'>
+                <button id='btnPrev' onclick="show(-1, 4)">&lt;</button>
+                <ul id='lista4' class='videos'>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=bFzwQcjIv_o" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/bFzwQcjIv_o/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=PhHxkGa5VOY" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/PhHxkGa5VOY/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=bBL_c9Etx3k" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/bBL_c9Etx3k/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=0ebRdVnbj7o" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/0ebRdVnbj7o/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=mdZQ-_GLzYs" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/mdZQ-_GLzYs/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                </ul>
+                <button id='btnNext' onclick="show(+1, 4)">&gt</button>
+            </article>
+
+            <h3> Dramas Taiwaneses (<span class='numDeVideos'></span>)</h3>
+
+            <article class='categoria'>
+                <button id='btnPrev' onclick="show(-1, 5)">&lt;</button>
+                <ul id='lista5' class='videos' >
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=GjYfDjlh4R4" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/GjYfDjlh4R4/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=ghnlE6yOGrg" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/ghnlE6yOGrg/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=kvabWok6yCo" rel="noreferrer noopener" target="_blank">
+                            <img class='capa-thumb' src="https://img.youtube.com/vi/kvabWok6yCo/maxresdefault.jpg" alt="capa" />
+                        </a>
+                    </li>
+                </ul>
+                <button id='btnNext' onclick="show(+1, 5)">&gt</button>
+            </article>
+
+        </section>
+
+        <div id='aviso'>
+        </div>
+
+        <footer id='rodape'>
+            <p>Ásia Flix &copy; Produzido por Deise Alves - 2024</p>
+        </footer>
+    </main>
+<script src="js/aula27.js"></script>
+<!-- FONT AWESOME -->
+ <script src="https://kit.fontawesome.com/9c34151a1a.js" crossorigin="anonymous"></script>
+</body>
+</html>
